@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@ansgar/cdktf-provider-project@0.2.63-cdktf-gh-org":
+  version "0.2.63-cdktf-gh-org"
+  resolved "https://registry.yarnpkg.com/@ansgar/cdktf-provider-project/-/cdktf-provider-project-0.2.63-cdktf-gh-org.tgz#bcb16532d6465ec2051e4d8143e879ee223dab95"
+  integrity sha512-E4PWJPTRnpFkZj24K2uhcbWBl5XWKx85BAXp3EH1dh8Oay+GUQPdlRkB/dW2qqlGcmH2vplJ44wrPazyePRcaA==
+  dependencies:
+    change-case "^4.1.2"
+    fs-extra "^10.1.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.18.6":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.18.6.tgz#3b25d38c89600baa2dcc219edfa88a74eb2c427a"
@@ -99,14 +107,6 @@
     fs-extra "^8.1.0"
     is-valid-domain "^0.1.6"
     jsii-srcmak "^0.1.655"
-
-"@cdktf/provider-project@^0.2.8":
-  version "0.2.59"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-project/-/provider-project-0.2.59.tgz#c8f736fa700350dbf4e66c009d769ef321735955"
-  integrity sha512-GNrcaff9hRRWhSpmspLjssnjsFvN03u8tDazr3tdOkeHAnNNn+7wSuvqABrGpKWwKdeojZTku8aLVVTxQOQZrw==
-  dependencies:
-    change-case "^4.1.2"
-    fs-extra "^10.1.0"
 
 "@gar/promisify@^1.1.3":
   version "1.1.3"

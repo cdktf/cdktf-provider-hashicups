@@ -1,8 +1,8 @@
 {
   "dependencies": [
     {
-      "name": "@cdktf/provider-project",
-      "version": "^0.2.8",
+      "name": "@ansgar/cdktf-provider-project",
+      "version": "0.2.63-cdktf-gh-org",
       "type": "build"
     },
     {

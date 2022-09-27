@@ -1,4 +1,4 @@
-const { CdktfProviderProject } = require("@cdktf/provider-project");
+const { CdktfProviderProject } = require("@ansgar/cdktf-provider-project");
 const project = new CdktfProviderProject({
   useCustomGithubRunner: true,
   terraformProvider: "hashicorp/hashicups@~> 0.3",
