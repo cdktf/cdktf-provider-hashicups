@@ -1,6 +1,6 @@
 const { CdktfProviderProject } = require("@cdktf/provider-project");
 const project = new CdktfProviderProject({
-  useCustomGithubRunner: false,
+  useCustomGithubRunner: true,
   terraformProvider: "hashicorp/hashicups@~> 0.3",
   cdktfVersion: "^0.12.2",
   constructsVersion: "^10.0.0",
