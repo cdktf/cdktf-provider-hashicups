@@ -3,7 +3,7 @@
   "description": "Prebuilt hashicups Provider for Terraform CDK (cdktf)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cdktf/cdktf-provider-hashicups.git"
+    "url": "https://github.com/hashicorp/cdktf-provider-hashicups.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -42,7 +42,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@ansgar/cdktf-provider-project": "0.2.63-cdktf-gh-org",
+    "@cdktf/provider-project": "^0.2.8",
     "@types/node": "^14",
     "cdktf": "^0.12.2",
     "cdktf-cli": "^0.12.2",
@@ -53,7 +53,7 @@
     "jsii-docgen": "^7.0.97",
     "jsii-pacmak": "^1.69.0",
     "npm-check-updates": "^15",
-    "projen": "^0.62.24",
+    "projen": "^0.62.25",
     "standard-version": "^9",
     "typescript": "^4.8.4"
   },
@@ -98,7 +98,7 @@
         "packageId": "HashiCorp.Cdktf.Providers.Hashicups"
       },
       "go": {
-        "moduleName": "github.com/cdktf/cdktf-provider-hashicups-go",
+        "moduleName": "github.com/hashicorp/cdktf-provider-hashicups-go",
         "packageName": "hashicups"
       }
     },
