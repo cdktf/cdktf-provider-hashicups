@@ -265,6 +265,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -297,6 +299,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformElement"></a>
+
+```typescript
+import { dataHashicupsCoffees } from '@cdktf/provider-hashicups'
+
+dataHashicupsCoffees.DataHashicupsCoffees.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformDataSource"></a>
+
+```typescript
+import { dataHashicupsCoffees } from '@cdktf/provider-hashicups'
+
+dataHashicupsCoffees.DataHashicupsCoffees.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -755,6 +785,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -787,6 +819,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformElement"></a>
+
+```typescript
+import { dataHashicupsIngredients } from '@cdktf/provider-hashicups'
+
+dataHashicupsIngredients.DataHashicupsIngredients.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformDataSource"></a>
+
+```typescript
+import { dataHashicupsIngredients } from '@cdktf/provider-hashicups'
+
+dataHashicupsIngredients.DataHashicupsIngredients.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -1260,6 +1320,8 @@ public interpolationForAttribute(terraformAttribute: string): IResolvable
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -1292,6 +1354,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformElement"></a>
+
+```typescript
+import { dataHashicupsOrder } from '@cdktf/provider-hashicups'
+
+dataHashicupsOrder.DataHashicupsOrder.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformDataSource"></a>
+
+```typescript
+import { dataHashicupsOrder } from '@cdktf/provider-hashicups'
+
+dataHashicupsOrder.DataHashicupsOrder.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -1641,6 +1731,8 @@ public resetUsername(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
 
 ---
 
@@ -1673,6 +1765,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformElement"></a>
+
+```typescript
+import { provider } from '@cdktf/provider-hashicups'
+
+provider.HashicupsProvider.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformProvider` <a name="isTerraformProvider" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformProvider"></a>
+
+```typescript
+import { provider } from '@cdktf/provider-hashicups'
+
+provider.HashicupsProvider.isTerraformProvider(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformProvider.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -2162,6 +2282,8 @@ public resetLastUpdated(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -2194,6 +2316,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-hashicups.order.Order.isTerraformElement"></a>
+
+```typescript
+import { order } from '@cdktf/provider-hashicups'
+
+order.Order.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.order.Order.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-hashicups.order.Order.isTerraformResource"></a>
+
+```typescript
+import { order } from '@cdktf/provider-hashicups'
+
+order.Order.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-hashicups.order.Order.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
