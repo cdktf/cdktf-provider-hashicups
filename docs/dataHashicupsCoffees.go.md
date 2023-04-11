@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/hashicups/d/coffees 
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffees(scope Construct, id *string, config DataHashicupsCoffeesConfig) DataHashicupsCoffees
 ```
@@ -273,7 +273,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.DataHashicupsCoffees_IsConstruct(x interface{}) *bool
 ```
@@ -305,7 +305,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.DataHashicupsCoffees_IsTerraformElement(x interface{}) *bool
 ```
@@ -319,7 +319,7 @@ datahashicupscoffees.DataHashicupsCoffees_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.DataHashicupsCoffees_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffees.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 &datahashicupscoffees.DataHashicupsCoffeesCoffees {
 
@@ -542,7 +542,7 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupsc
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesIngredients.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 &datahashicupscoffees.DataHashicupsCoffeesCoffeesIngredients {
 
@@ -555,7 +555,7 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupsc
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 &datahashicupscoffees.DataHashicupsCoffeesConfig {
 	Connection: interface{},
@@ -676,7 +676,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesIngredientsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesIngredientsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHashicupsCoffeesCoffeesIngredientsList
 ```
@@ -808,7 +808,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesIngredientsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesIngredientsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataHashicupsCoffeesCoffeesIngredientsOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataHashicupsCoffeesCoffeesIngredients
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHashicupsCoffeesCoffeesList
 ```
@@ -1218,7 +1218,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v3/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataHashicupsCoffeesCoffeesOutputReference
 ```
