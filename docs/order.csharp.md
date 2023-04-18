@@ -1,3 +1,7 @@
+# `hashicups_order`
+
+Refer to the Terraform Registory for docs: [`hashicups_order`](https://www.terraform.io/docs/providers/hashicups/r/order).
+
 # `order` Submodule <a name="`order` Submodule" id="@cdktf/provider-hashicups.order"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
