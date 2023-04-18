@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/hashicups
+// https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface HashicupsProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#host HashicupsProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#host HashicupsProvider#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#password HashicupsProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#password HashicupsProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#username HashicupsProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#username HashicupsProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#alias HashicupsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#alias HashicupsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/hashicups hashicups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs hashicups}
 */
 export class HashicupsProvider extends cdktf.TerraformProvider {
 
@@ -42,7 +42,7 @@ export class HashicupsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/hashicups hashicups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs hashicups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

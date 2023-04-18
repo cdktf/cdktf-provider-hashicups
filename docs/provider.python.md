@@ -1,6 +1,6 @@
 # `provider`
 
-Refer to the Terraform Registory for docs: [`hashicups`](https://www.terraform.io/docs/providers/hashicups).
+Refer to the Terraform Registory for docs: [`hashicups`](https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs).
 
 # `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-hashicups.provider"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`hashicups`](https://www.terraform.i
 
 ### HashicupsProvider <a name="HashicupsProvider" id="@cdktf/provider-hashicups.provider.HashicupsProvider"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/hashicups hashicups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs hashicups}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer"></a>
 
@@ -30,9 +30,9 @@ provider.HashicupsProvider(
 | <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.alias">alias</a></code> | <code>str</code> | Alias name. |
-| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.host">host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#host HashicupsProvider#host}. |
-| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#password HashicupsProvider#password}. |
-| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#username HashicupsProvider#username}. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.host">host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#host HashicupsProvider#host}. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#password HashicupsProvider#password}. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer.parameter.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#username HashicupsProvider#username}. |
 
 ---
 
@@ -60,7 +60,7 @@ Must be unique amongst siblings in the same scope
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#alias HashicupsProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#alias HashicupsProvider#alias}
 
 ---
 
@@ -68,7 +68,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#host HashicupsProvider#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#host HashicupsProvider#host}.
 
 ---
 
@@ -76,7 +76,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#password HashicupsProvider#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#password HashicupsProvider#password}.
 
 ---
 
@@ -84,7 +84,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#username HashicupsProvider#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#username HashicupsProvider#username}.
 
 ---
 
@@ -499,9 +499,9 @@ provider.HashicupsProviderConfig(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.alias">alias</a></code> | <code>str</code> | Alias name. |
-| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.host">host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#host HashicupsProvider#host}. |
-| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#password HashicupsProvider#password}. |
-| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#username HashicupsProvider#username}. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.host">host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#host HashicupsProvider#host}. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#password HashicupsProvider#password}. |
+| <code><a href="#@cdktf/provider-hashicups.provider.HashicupsProviderConfig.property.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#username HashicupsProvider#username}. |
 
 ---
 
@@ -515,7 +515,7 @@ alias: str
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#alias HashicupsProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#alias HashicupsProvider#alias}
 
 ---
 
@@ -527,7 +527,7 @@ host: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#host HashicupsProvider#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#host HashicupsProvider#host}.
 
 ---
 
@@ -539,7 +539,7 @@ password: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#password HashicupsProvider#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#password HashicupsProvider#password}.
 
 ---
 
@@ -551,7 +551,7 @@ username: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups#username HashicupsProvider#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#username HashicupsProvider#username}.
 
 ---
 

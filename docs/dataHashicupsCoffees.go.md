@@ -1,6 +1,6 @@
 # `data_hashicups_coffees`
 
-Refer to the Terraform Registory for docs: [`data_hashicups_coffees`](https://www.terraform.io/docs/providers/hashicups/d/coffees).
+Refer to the Terraform Registory for docs: [`data_hashicups_coffees`](https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/coffees).
 
 # `dataHashicupsCoffees` Submodule <a name="`dataHashicupsCoffees` Submodule" id="@cdktf/provider-hashicups.dataHashicupsCoffees"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`data_hashicups_coffees`](https://ww
 
 ### DataHashicupsCoffees <a name="DataHashicupsCoffees" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/hashicups/d/coffees hashicups_coffees}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/coffees hashicups_coffees}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffees(scope Construct, id *string, config DataHashicupsCoffeesConfig) DataHashicupsCoffees
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.DataHashicupsCoffees_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.DataHashicupsCoffees_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ datahashicupscoffees.DataHashicupsCoffees_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.DataHashicupsCoffees_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -345,7 +345,7 @@ datahashicupscoffees.DataHashicupsCoffees_IsTerraformDataSource(x interface{}) *
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -431,10 +431,10 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffees.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -533,7 +533,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffees.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 &datahashicupscoffees.DataHashicupsCoffeesCoffees {
 
@@ -546,7 +546,7 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsc
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesIngredients.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 &datahashicupscoffees.DataHashicupsCoffeesCoffeesIngredients {
 
@@ -559,11 +559,11 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsc
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 &datahashicupscoffees.DataHashicupsCoffeesConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -578,13 +578,13 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsc
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups/d/coffees#id DataHashicupsCoffees#id}. |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/coffees#id DataHashicupsCoffees#id}. |
 
 ---
 
@@ -601,10 +601,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -666,7 +666,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups/d/coffees#id DataHashicupsCoffees#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/coffees#id DataHashicupsCoffees#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -680,7 +680,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesIngredientsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesIngredientsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHashicupsCoffeesCoffeesIngredientsList
 ```
@@ -812,7 +812,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesIngredientsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesIngredientsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataHashicupsCoffeesCoffeesIngredientsOutputReference
 ```
@@ -1090,7 +1090,7 @@ func InternalValue() DataHashicupsCoffeesCoffeesIngredients
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHashicupsCoffeesCoffeesList
 ```
@@ -1222,7 +1222,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsCoffees.DataHashicupsCoffeesCoffeesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupscoffees"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupscoffees"
 
 datahashicupscoffees.NewDataHashicupsCoffeesCoffeesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataHashicupsCoffeesCoffeesOutputReference
 ```

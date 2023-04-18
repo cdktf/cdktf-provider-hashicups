@@ -1,6 +1,6 @@
 # `data_hashicups_order`
 
-Refer to the Terraform Registory for docs: [`data_hashicups_order`](https://www.terraform.io/docs/providers/hashicups/d/order).
+Refer to the Terraform Registory for docs: [`data_hashicups_order`](https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/order).
 
 # `dataHashicupsOrder` Submodule <a name="`dataHashicupsOrder` Submodule" id="@cdktf/provider-hashicups.dataHashicupsOrder"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`data_hashicups_order`](https://www.
 
 ### DataHashicupsOrder <a name="DataHashicupsOrder" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/hashicups/d/order hashicups_order}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/order hashicups_order}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.Initializer"></a>
 
@@ -338,7 +338,7 @@ dataHashicupsOrder.DataHashicupsOrder.isTerraformDataSource(x: any)
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -424,10 +424,10 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -536,13 +536,13 @@ const dataHashicupsOrderConfig: dataHashicupsOrder.DataHashicupsOrderConfig = { 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.id">id</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups/d/order#id DataHashicupsOrder#id}. |
+| <code><a href="#@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.id">id</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/order#id DataHashicupsOrder#id}. |
 
 ---
 
@@ -559,10 +559,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -624,7 +624,7 @@ public readonly id: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/hashicups/d/order#id DataHashicupsOrder#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/data-sources/order#id DataHashicupsOrder#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
