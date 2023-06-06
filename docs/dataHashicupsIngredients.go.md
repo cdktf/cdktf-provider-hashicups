@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 datahashicupsingredients.NewDataHashicupsIngredients(scope Construct, id *string, config DataHashicupsIngredientsConfig) DataHashicupsIngredients
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 datahashicupsingredients.DataHashicupsIngredients_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 datahashicupsingredients.DataHashicupsIngredients_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ datahashicupsingredients.DataHashicupsIngredients_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredients.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 datahashicupsingredients.DataHashicupsIngredients_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredientsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 &datahashicupsingredients.DataHashicupsIngredientsConfig {
 	Connection: interface{},
@@ -688,7 +688,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredientsIngredients.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 &datahashicupsingredients.DataHashicupsIngredientsIngredients {
 
@@ -703,7 +703,7 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsi
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredientsIngredientsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 datahashicupsingredients.NewDataHashicupsIngredientsIngredientsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHashicupsIngredientsIngredientsList
 ```
@@ -835,7 +835,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsIngredients.DataHashicupsIngredientsIngredientsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v4/datahashicupsingredients"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsingredients"
 
 datahashicupsingredients.NewDataHashicupsIngredientsIngredientsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataHashicupsIngredientsIngredientsOutputReference
 ```
