@@ -263,12 +263,12 @@ public interpolationForAttribute(terraformAttribute: string): IResolvable
 ##### `putItems` <a name="putItems" id="@cdktf/provider-hashicups.order.Order.putItems"></a>
 
 ```typescript
-public putItems(value: OrderItems[] | IResolvable): void
+public putItems(value: IResolvable | OrderItems[]): void
 ```
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-hashicups.order.Order.putItems.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]
 
 ---
 
@@ -374,7 +374,7 @@ order.Order.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.items">items</a></code> | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList">OrderItemsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.Order.property.itemsInput">itemsInput</a></code> | <code><a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.property.itemsInput">itemsInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.lastUpdatedInput">lastUpdatedInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.lastUpdated">lastUpdated</a></code> | <code>string</code> | *No description.* |
@@ -546,10 +546,10 @@ public readonly idInput: string;
 ##### `itemsInput`<sup>Optional</sup> <a name="itemsInput" id="@cdktf/provider-hashicups.order.Order.property.itemsInput"></a>
 
 ```typescript
-public readonly itemsInput: OrderItems[] | IResolvable;
+public readonly itemsInput: IResolvable | OrderItems[];
 ```
 
-- *Type:* <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]
 
 ---
 
@@ -624,7 +624,7 @@ const orderConfig: order.OrderConfig = { ... }
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.items">items</a></code> | <code><a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] \| cdktf.IResolvable</code> | items block. |
+| <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.items">items</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]</code> | items block. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#id Order#id}. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.lastUpdated">lastUpdated</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#last_updated Order#last_updated}. |
 
@@ -703,10 +703,10 @@ public readonly provisioners: FileProvisioner | LocalExecProvisioner | RemoteExe
 ##### `items`<sup>Required</sup> <a name="items" id="@cdktf/provider-hashicups.order.OrderConfig.property.items"></a>
 
 ```typescript
-public readonly items: OrderItems[] | IResolvable;
+public readonly items: IResolvable | OrderItems[];
 ```
 
-- *Type:* <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]
 
 items block.
 
@@ -1251,7 +1251,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]</code> | *No description.* |
 
 ---
 
@@ -1282,10 +1282,10 @@ public readonly fqn: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OrderItems[] | IResolvable;
+public readonly internalValue: IResolvable | OrderItems[];
 ```
 
-- *Type:* <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[] | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>[]
 
 ---
 
