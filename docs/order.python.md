@@ -25,7 +25,7 @@ order.Order(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[typing.Union[FileProvisioner, LocalExecProvisioner, RemoteExecProvisioner]] = None,
-  items: typing.Union[typing.List[OrderItems], IResolvable],
+  items: typing.Union[IResolvable, typing.List[OrderItems]],
   id: str = None,
   last_updated: str = None
 )
@@ -42,7 +42,7 @@ order.Order(
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.items">items</a></code> | <code>typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]</code> | items block. |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.items">items</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]</code> | items block. |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#id Order#id}. |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.lastUpdated">last_updated</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#last_updated Order#last_updated}. |
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 ##### `items`<sup>Required</sup> <a name="items" id="@cdktf/provider-hashicups.order.Order.Initializer.parameter.items"></a>
 
-- *Type:* typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]
 
 items block.
 
@@ -376,13 +376,13 @@ def interpolation_for_attribute(
 
 ```python
 def put_items(
-  value: typing.Union[typing.List[OrderItems], IResolvable]
+  value: typing.Union[IResolvable, typing.List[OrderItems]]
 ) -> None
 ```
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-hashicups.order.Order.putItems.parameter.value"></a>
 
-- *Type:* typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]
 
 ---
 
@@ -494,7 +494,7 @@ order.Order.is_terraform_resource(
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.items">items</a></code> | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList">OrderItemsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.Order.property.itemsInput">items_input</a></code> | <code>typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.property.itemsInput">items_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.lastUpdatedInput">last_updated_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.lastUpdated">last_updated</a></code> | <code>str</code> | *No description.* |
@@ -666,10 +666,10 @@ id_input: str
 ##### `items_input`<sup>Optional</sup> <a name="items_input" id="@cdktf/provider-hashicups.order.Order.property.itemsInput"></a>
 
 ```python
-items_input: typing.Union[typing.List[OrderItems], IResolvable]
+items_input: typing.Union[IResolvable, typing.List[OrderItems]]
 ```
 
-- *Type:* typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]
 
 ---
 
@@ -738,7 +738,7 @@ order.OrderConfig(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[typing.Union[FileProvisioner, LocalExecProvisioner, RemoteExecProvisioner]] = None,
-  items: typing.Union[typing.List[OrderItems], IResolvable],
+  items: typing.Union[IResolvable, typing.List[OrderItems]],
   id: str = None,
   last_updated: str = None
 )
@@ -755,7 +755,7 @@ order.OrderConfig(
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.items">items</a></code> | <code>typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]</code> | items block. |
+| <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.items">items</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]</code> | items block. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#id Order#id}. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.lastUpdated">last_updated</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#last_updated Order#last_updated}. |
 
@@ -834,10 +834,10 @@ provisioners: typing.List[typing.Union[FileProvisioner, LocalExecProvisioner, Re
 ##### `items`<sup>Required</sup> <a name="items" id="@cdktf/provider-hashicups.order.OrderConfig.property.items"></a>
 
 ```python
-items: typing.Union[typing.List[OrderItems], IResolvable]
+items: typing.Union[IResolvable, typing.List[OrderItems]]
 ```
 
-- *Type:* typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]
 
 items block.
 
@@ -1420,7 +1420,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue">internal_value</a></code> | <code>typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]</code> | *No description.* |
 
 ---
 
@@ -1451,10 +1451,10 @@ fqn: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[typing.List[OrderItems], IResolvable]
+internal_value: typing.Union[IResolvable, typing.List[OrderItems]]
 ```
 
-- *Type:* typing.Union[typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>], cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>]]
 
 ---
 

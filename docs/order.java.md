@@ -27,8 +27,8 @@ Order.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner)
 //  .provisioners(LocalExecProvisioner)
 //  .provisioners(RemoteExecProvisioner>)
-    .items(java.util.List<OrderItems>)
     .items(IResolvable)
+    .items(java.util.List<OrderItems>)
 //  .id(java.lang.String)
 //  .lastUpdated(java.lang.String)
     .build();
@@ -45,7 +45,7 @@ Order.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.items">items</a></code> | <code>java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable</code> | items block. |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.items">items</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>></code> | items block. |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#id Order#id}. |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.Initializer.parameter.lastUpdated">lastUpdated</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#last_updated Order#last_updated}. |
 
@@ -113,7 +113,7 @@ Must be unique amongst siblings in the same scope
 
 ##### `items`<sup>Required</sup> <a name="items" id="@cdktf/provider-hashicups.order.Order.Initializer.parameter.items"></a>
 
-- *Type:* java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>>
 
 items block.
 
@@ -353,12 +353,12 @@ public IResolvable interpolationForAttribute(java.lang.String terraformAttribute
 ##### `putItems` <a name="putItems" id="@cdktf/provider-hashicups.order.Order.putItems"></a>
 
 ```java
-public void putItems(java.util.List<OrderItems> OR IResolvable value)
+public void putItems(IResolvable OR java.util.List<OrderItems> value)
 ```
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-hashicups.order.Order.putItems.parameter.value"></a>
 
-- *Type:* java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>>
 
 ---
 
@@ -464,7 +464,7 @@ Order.isTerraformResource(java.lang.Object x)
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.items">items</a></code> | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList">OrderItemsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.Order.property.itemsInput">itemsInput</a></code> | <code>java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.property.itemsInput">itemsInput</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.lastUpdatedInput">lastUpdatedInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.property.lastUpdated">lastUpdated</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -639,7 +639,7 @@ public java.lang.String getIdInput();
 public java.lang.Object getItemsInput();
 ```
 
-- *Type:* java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>>
 
 ---
 
@@ -712,8 +712,8 @@ OrderConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner)
 //  .provisioners(LocalExecProvisioner)
 //  .provisioners(RemoteExecProvisioner>)
-    .items(java.util.List<OrderItems>)
     .items(IResolvable)
+    .items(java.util.List<OrderItems>)
 //  .id(java.lang.String)
 //  .lastUpdated(java.lang.String)
     .build();
@@ -730,7 +730,7 @@ OrderConfig.builder()
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.items">items</a></code> | <code>java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable</code> | items block. |
+| <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.items">items</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>></code> | items block. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#id Order#id}. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderConfig.property.lastUpdated">lastUpdated</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#last_updated Order#last_updated}. |
 
@@ -812,7 +812,7 @@ public java.lang.Object getProvisioners();
 public java.lang.Object getItems();
 ```
 
-- *Type:* java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>>
 
 items block.
 
@@ -1362,7 +1362,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue">internalValue</a></code> | <code>java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.OrderItemsList.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>></code> | *No description.* |
 
 ---
 
@@ -1396,7 +1396,7 @@ public java.lang.String getFqn();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-hashicups.order.OrderItems">OrderItems</a>>
 
 ---
 
