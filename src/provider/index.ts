@@ -26,7 +26,7 @@ export interface HashicupsProviderConfig {
   readonly username?: string;
   /**
   * Alias name
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs#alias HashicupsProvider#alias}
   */
   readonly alias?: string;
