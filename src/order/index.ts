@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order
 // generated from terraform resource schema
 
@@ -25,7 +20,7 @@ export interface OrderConfig extends cdktf.TerraformMetaArguments {
   readonly lastUpdated?: string;
   /**
   * items block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#items Order#items}
   */
   readonly items: OrderItems[] | cdktf.IResolvable;
@@ -127,7 +122,7 @@ export interface OrderItems {
   readonly quantity: number;
   /**
   * coffee block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hashicups/0.3.1/docs/resources/order#coffee Order#coffee}
   */
   readonly coffee: OrderItemsCoffee;
