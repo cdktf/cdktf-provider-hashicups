@@ -200,10 +200,10 @@
     fs-extra "^8.1.0"
     jsii-srcmak "^0.1.951"
 
-"@cdktf/provider-project@^0.2.95":
-  version "0.2.138"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-project/-/provider-project-0.2.138.tgz#d3fb6697051f1b8669223653fd3ad5ad9abf6198"
-  integrity sha512-WttffACmAvUe5lHC7vi4idcxdDz28RzmDZQ7TqPMe+HtE3JdTzNXuxsLeuXat7Ud99Und9iaZu8/hGiPw7ms2Q==
+"@cdktf/provider-project@~0.4.0":
+  version "0.4.14"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-project/-/provider-project-0.4.14.tgz#fc7446f72ee32fc9a819ccf3aed54c6f3787859a"
+  integrity sha512-cP4s88rkYf2/TToEvonbv/5ml5ezQBppuZ9iLChDy5mk6jjO51+9BA/ei6TqlxlZ17nbrWwy+2+m1LT2KwQ8Tg==
   dependencies:
     change-case "^4.1.2"
     fs-extra "^10.1.0"
@@ -731,10 +731,12 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.23.tgz#b6e934fe427eb7081d0015aad070acb3373c3c90"
   integrity sha512-XAMpaw1s1+6zM+jn2tmw8MyaRDIJfXxqmIQIS0HfoGYPuf7dUWeiUKopwq13KFX9lEp1+THGtlaaYx39Nxr58g==
 
-"@types/node@^16":
-  version "16.18.68"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.68.tgz#3155f64a961b3d8d10246c80657f9a7292e3421a"
-  integrity sha512-sG3hPIQwJLoewrN7cr0dwEy+yF5nD4D/4FxtQpFciRD/xwUzgD+G05uxZHv5mhfXo4F9Jkp13jjn0CC2q325sg==
+"@types/node@^18":
+  version "18.19.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.3.tgz#e4723c4cb385641d61b983f6fe0b716abd5f8fc0"
+  integrity sha512-k5fggr14DwAytoA/t8rPrIz++lXK7/DqckthCmoZOKNsEbJkId4Z//BqgApXBUGrGddrigYa1oqheo/7YmW4rg==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.4"
@@ -747,9 +749,9 @@
   integrity sha512-ltIpx+kM7g/MLRZfkbL7EsCEjfzCcScLpkg37eXEtx5kmrAKBkTJwd1GIAjDSL8wTpM6Hzn5YO4pSb91BEwu1g==
 
 "@types/yargs-parser@*":
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz#0c60e537fa790f5f9472ed2776c2b71ec117351b"
-  integrity sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==
+  version "21.0.3"
+  resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.3.tgz#815e30b786d2e8f0dcd85fd5bcf5e1a04d008f15"
+  integrity sha512-I4q9QU9MQv4oEOz4tAHJtNz1cwuLxn2F3xcc2iV5WdqLPpUnj30aUuxt1mAxYTG+oe8CZMV/+6rU4S4gRDzqtQ==
 
 "@types/yargs@17.0.13":
   version "17.0.13"
@@ -1565,7 +1567,7 @@ constant-case@^3.0.4:
     tslib "^2.0.3"
     upper-case "^2.0.2"
 
-constructs@^10.0.0, constructs@^10.0.25:
+constructs@^10.0.25, constructs@^10.3.0:
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.3.0.tgz#4c246fce9cf8e77711ad45944e9fbd41f1501965"
   integrity sha512-vbK8i3rIb/xwZxSpTjz3SagHn1qq9BChLEfy5Hf6fB3/2eFbrwt2n9kHwQcS0CPTRBesreeAcsJfMq2229FnbQ==
@@ -3248,7 +3250,7 @@ jsii@1.93.0:
     typescript "~3.9.10"
     yargs "^16.2.0"
 
-jsii@^5.0.1, jsii@^5.1.10, jsii@~5.2.41, jsii@~5.2.5:
+jsii@^5.1.10, jsii@~5.2.0, jsii@~5.2.41, jsii@~5.2.5:
   version "5.2.41"
   resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.2.41.tgz#ba1ec85b2f0a92fed3163b028645d5bb62a97bd8"
   integrity sha512-MToK0IBcx1+KZWpwMehLALT60TEav0yDXcu3TilNQbtJLztQrzA1HKZuzV6EIMB1nmHwABCr1qSeoIvqLnYfWA==
@@ -5352,11 +5354,6 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@^4.9.5:
-  version "4.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
-
 typescript@next:
   version "5.4.0-dev.20231214"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.0-dev.20231214.tgz#a8ff49a37c0dc122a04730a84ff540b7ef8ce343"
@@ -5367,7 +5364,7 @@ typescript@~3.9.10:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
   integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
-typescript@~5.2, typescript@~5.2.2:
+typescript@~5.2, typescript@~5.2.0, typescript@~5.2.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
