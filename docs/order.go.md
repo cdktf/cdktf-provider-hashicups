@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.order.Order.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.NewOrder(scope Construct, id *string, config OrderConfig) Order
 ```
@@ -56,6 +56,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-hashicups.order.Order.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
@@ -65,7 +66,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-hashicups.order.Order.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.importFrom">ImportFrom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktf/provider-hashicups.order.Order.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.putItems">PutItems</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-hashicups.order.Order.resetLastUpdated">ResetLastUpdated</a></code> | *No description.* |
@@ -135,6 +141,22 @@ func ToTerraform() interface{}
 ```
 
 Adds this resource to the terraform JSON output.
+
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-hashicups.order.Order.addMoveTarget"></a>
+
+```go
+func AddMoveTarget(moveTarget *string)
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-hashicups.order.Order.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The string move target that will correspond to this resource.
+
+---
 
 ##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-hashicups.order.Order.getAnyMapAttribute"></a>
 
@@ -244,6 +266,30 @@ func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 
 ---
 
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-hashicups.order.Order.hasResourceMove"></a>
+
+```go
+func HasResourceMove() interface{}
+```
+
+##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-hashicups.order.Order.importFrom"></a>
+
+```go
+func ImportFrom(id *string, provider TerraformProvider)
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-hashicups.order.Order.importFrom.parameter.id"></a>
+
+- *Type:* *string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-hashicups.order.Order.importFrom.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+---
+
 ##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-hashicups.order.Order.interpolationForAttribute"></a>
 
 ```go
@@ -253,6 +299,64 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-hashicups.order.Order.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
+
+---
+
+##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-hashicups.order.Order.moveFromId"></a>
+
+```go
+func MoveFromId(id *string)
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using it's instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-hashicups.order.Order.moveFromId.parameter.id"></a>
+
+- *Type:* *string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-hashicups.order.Order.moveTo"></a>
+
+```go
+func MoveTo(moveTarget *string, index interface{})
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-hashicups.order.Order.moveTo.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-hashicups.order.Order.moveTo.parameter.index"></a>
+
+- *Type:* interface{}
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-hashicups.order.Order.moveToId"></a>
+
+```go
+func MoveToId(id *string)
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-hashicups.order.Order.moveToId.parameter.id"></a>
+
+- *Type:* *string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
@@ -293,7 +397,7 @@ func ResetLastUpdated()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-hashicups.order.Order.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.Order_IsConstruct(x interface{}) *bool
 ```
@@ -325,7 +429,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-hashicups.order.Order.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.Order_IsTerraformElement(x interface{}) *bool
 ```
@@ -339,7 +443,7 @@ order.Order_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-hashicups.order.Order.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.Order_IsTerraformResource(x interface{}) *bool
 ```
@@ -604,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.order.OrderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 &order.OrderConfig {
 	Connection: interface{},
@@ -753,10 +857,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.order.OrderItems.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 &order.OrderItems {
-	Coffee: github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6.order.OrderItemsCoffee,
+	Coffee: github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7.order.OrderItemsCoffee,
 	Quantity: *f64,
 }
 ```
@@ -801,7 +905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.order.OrderItemsCoffee.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 &order.OrderItemsCoffee {
 	Id: *f64,
@@ -838,7 +942,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.order.OrderItemsCoffeeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.NewOrderItemsCoffeeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OrderItemsCoffeeOutputReference
 ```
@@ -1164,7 +1268,7 @@ func InternalValue() OrderItemsCoffee
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.order.OrderItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.NewOrderItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrderItemsList
 ```
@@ -1307,7 +1411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.order.OrderItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v6/order"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/order"
 
 order.NewOrderItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrderItemsOutputReference
 ```
