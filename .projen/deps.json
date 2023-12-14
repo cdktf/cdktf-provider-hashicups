@@ -41,7 +41,7 @@
     },
     {
       "name": "jsii-docgen",
-      "version": "~9.0.0",
+      "version": "^10.2.3",
       "type": "build"
     },
     {
@@ -50,17 +50,12 @@
     },
     {
       "name": "jsii-rosetta",
-      "version": "~5.1.2",
+      "version": "~5.2.0",
       "type": "build"
     },
     {
       "name": "jsii",
       "version": "^5.0.1",
-      "type": "build"
-    },
-    {
-      "name": "node-fetch",
-      "version": "cjs",
       "type": "build"
     },
     {
@@ -70,6 +65,11 @@
     },
     {
       "name": "projen",
+      "type": "build"
+    },
+    {
+      "name": "semver",
+      "version": "^7.5.3",
       "type": "build"
     },
     {
