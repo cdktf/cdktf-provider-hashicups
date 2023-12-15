@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 datahashicupsorder.NewDataHashicupsOrder(scope Construct, id *string, config DataHashicupsOrderConfig) DataHashicupsOrder
 ```
@@ -266,7 +266,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 datahashicupsorder.DataHashicupsOrder_IsConstruct(x interface{}) *bool
 ```
@@ -298,7 +298,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 datahashicupsorder.DataHashicupsOrder_IsTerraformElement(x interface{}) *bool
 ```
@@ -312,7 +312,7 @@ datahashicupsorder.DataHashicupsOrder_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrder.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 datahashicupsorder.DataHashicupsOrder_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 &datahashicupsorder.DataHashicupsOrderConfig {
 	Connection: interface{},
@@ -641,7 +641,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderItems.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 &datahashicupsorder.DataHashicupsOrderItems {
 
@@ -656,7 +656,7 @@ import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupso
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 datahashicupsorder.NewDataHashicupsOrderItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHashicupsOrderItemsList
 ```
@@ -788,7 +788,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.dataHashicupsOrder.DataHashicupsOrderItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/datahashicupsorder"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/datahashicupsorder"
 
 datahashicupsorder.NewDataHashicupsOrderItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataHashicupsOrderItemsOutputReference
 ```
