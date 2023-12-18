@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/hashicups/
 #### Initializers <a name="Initializers" id="@cdktf/provider-hashicups.provider.HashicupsProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/provider"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/provider"
 
 provider.NewHashicupsProvider(scope Construct, id *string, config HashicupsProviderConfig) HashicupsProvider
 ```
@@ -164,7 +164,7 @@ func ResetUsername()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/provider"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/provider"
 
 provider.HashicupsProvider_IsConstruct(x interface{}) *bool
 ```
@@ -196,7 +196,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/provider"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/provider"
 
 provider.HashicupsProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -210,7 +210,7 @@ provider.HashicupsProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-hashicups.provider.HashicupsProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/provider"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/provider"
 
 provider.HashicupsProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-hashicups.provider.HashicupsProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/provider"
+import "github.com/cdktf/cdktf-provider-hashicups-go/hashicups/v7/provider"
 
 &provider.HashicupsProviderConfig {
 	Alias: *string,
