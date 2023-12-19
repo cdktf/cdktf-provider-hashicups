@@ -267,9 +267,6 @@
           "spawn": "unbump"
         },
         {
-          "exec": "git checkout HEAD -- package.json"
-        },
-        {
           "exec": "git diff --ignore-space-at-eol --exit-code"
         }
       ]
